@@ -24,8 +24,8 @@ export const GlobalStyle = createGlobalStyle`
   }
   body {
     font-family: 'Poppins', sans-serif;
-    background: #fff;
-    background: var(--bgc-body);
+    /* background: #fff; */
+   background: var(--bgc-body);
     -webkit-font-smoothing: antialiased;
   }
   body, p, input , button {
