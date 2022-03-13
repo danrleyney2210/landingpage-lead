@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     --text-title: #fff;
     --text-body: #969CB3;
     --bg-primary: #ca29c8;
+    --bgc-body: #121212;
   }
   * {
     margin: 0;
@@ -24,6 +25,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     font-family: 'Poppins', sans-serif;
     background: #fff;
+    background: var(--bgc-body);
     -webkit-font-smoothing: antialiased;
   }
   body, p, input , button {

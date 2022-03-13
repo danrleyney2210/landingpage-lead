@@ -1,9 +1,11 @@
 import * as S from './styles'
 import Button from '../Button/index';
 import {BsCalendar2Check} from 'react-icons/bs'
+import { BarIcons } from '../BarIcons';
 
 const Home = () => {
   return (
+    <>
     <S.Wrapper>
       <div className='content'>
         <div>
@@ -25,7 +27,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+    <BarIcons />
     </S.Wrapper>
+    </>
   )
 }
 
