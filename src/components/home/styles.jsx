@@ -17,7 +17,7 @@ background-color: #121212;
 opacity: 1;
 
 .content {
-  max-width: 1024px;
+  max-width: 1098px;
   margin: 0 auto;
   padding-top: 50px;
   font-size: 28px;
