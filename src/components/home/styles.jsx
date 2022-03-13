@@ -9,6 +9,39 @@ margin: 0 auto;
 padding-left: 20px;
 padding-right: 20px;
 
+
+
+.title-schedule{
+ color: white;
+ padding: 100px 0;
+
+ 
+h2, p{
+  font-weight: 500;
+}
+
+ h2{
+   font-size: 46px;
+ }
+ 
+ p{
+   font-size: 24px;
+ }
+ 
+
+ @media (max-width: 770px){
+   h2{
+     font-size: 25px;
+   }
+   p{
+     font-size: 22px;
+   }
+ }
+}
+
+
+
+
 `;
 
 export const Wrapper = styled.div`

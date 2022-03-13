@@ -30,6 +30,10 @@ const Home = () => {
           </div>
         </S.Wrapper>
         <BarIcons />
+        <div className='title-schedule'>
+          <h2>Conteúdo direto<br/>do Campo de batalha</h2> 
+          <p>Marque na sua agenda:</p>
+        </div>
       </S.Container>
     </>
   )
