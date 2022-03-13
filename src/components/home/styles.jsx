@@ -6,20 +6,19 @@ import styled from 'styled-components'
 export const Container = styled.div`
 max-width: 1098px;
 margin: 0 auto;
+padding-left: 20px;
+padding-right: 20px;
+
 `;
 
 export const Wrapper = styled.div`
-background-image: linear-gradient(45deg, #12121200 77%, #009EC8 130%);
 width: 100%;
-height: 100vh;
-background-color: #121212;
-
 opacity: 1;
 
 .content {
-  max-width: 1098px;
-  margin: 0 auto;
+  max-width: 100%;
   padding-top: 50px;
+  padding-bottom: 100px;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.5em;
@@ -82,6 +81,7 @@ opacity: 1;
         background: rgba(70,70,70, 0.3);
         outline: none;
       }
+      
     }
   }
 }

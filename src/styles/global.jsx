@@ -25,7 +25,8 @@ export const GlobalStyle = createGlobalStyle`
   body {
     font-family: 'Poppins', sans-serif;
     /* background: #fff; */
-   background: var(--bgc-body);
+    background: var(--bgc-body);
+    background-image: linear-gradient(45deg, #12121200 77%, #009EC8 130%);
     -webkit-font-smoothing: antialiased;
   }
   body, p, input , button {
