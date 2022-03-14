@@ -8,6 +8,8 @@ export const GlobalStyle = createGlobalStyle`
     --text-body: #969CB3;
     --bg-primary: #ca29c8;
     --bgc-body: #121212;
+    --green: RGB(45, 181, 184);
+    --line: #262626;
   }
   * {
     margin: 0;

@@ -26,8 +26,9 @@ h2, p{
  
  p{
    font-size: 24px;
+   color: var(--green);
  }
- 
+
 
  @media (max-width: 770px){
    h2{
@@ -39,7 +40,29 @@ h2, p{
  }
 }
 
+.wrap-schedules{
 
+  div.schedule-item{
+    position: relative;
+  }
+
+
+  div.schedule-item + div.schedule-item{
+    border-top: 1px solid var(--line);
+    
+  }
+
+  div.schedule-item + div.schedule-item::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: var(--green);
+    position: absolute;
+    top: -3px;
+  }
+  
+}
 
 
 `;
