@@ -65,6 +65,14 @@ h2, p{
 }
 
 
+
+
+
+.email-send{
+  margin: 100px auto;
+}
+
+
 `;
 
 export const Wrapper = styled.div`

@@ -54,7 +54,7 @@ padding: 70px 0;
 
 
 button{
-
+    color: white;
     grid-area: schedule-button;
     font-size: 16px;
     font-weight: 400;

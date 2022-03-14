@@ -3,6 +3,7 @@ import Button from '../Button/index';
 import {BsCalendar2Check} from 'react-icons/bs'
 import { BarIcons } from '../BarIcons';
 import { ScheduleItem } from '../ ScheduleItem';
+import { EmailSend } from '../EmailSend';
 
 const Home = () => {
   
@@ -92,7 +93,7 @@ const Home = () => {
         <dir className="wrap-schedules">
           {scheduleContent.map( (schedule, i) => <ScheduleItem schedule={schedule} count={i} key={i} classN="schedule-item"/> )}
         </dir>
-
+        <EmailSend />
       </S.Container>
     </>
     )
