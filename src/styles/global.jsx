@@ -7,6 +7,9 @@ export const GlobalStyle = createGlobalStyle`
     --text-title: #fff;
     --text-body: #969CB3;
     --bg-primary: #ca29c8;
+    --bgc-body: #121212;
+    --green: RGB(45, 181, 184);
+    --line: #262626;
   }
   * {
     margin: 0;
@@ -23,7 +26,9 @@ export const GlobalStyle = createGlobalStyle`
   }
   body {
     font-family: 'Poppins', sans-serif;
-    background: #fff;
+    /* background: #fff; */
+    background: var(--bgc-body);
+    background-image: linear-gradient(45deg, #12121200 77%, #009EC8 130%);
     -webkit-font-smoothing: antialiased;
   }
   body, p, input , button {
